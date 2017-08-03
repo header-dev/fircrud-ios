@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31E514C1F332DA700AC44A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E514B1F332DA700AC44A3 /* AppDelegate.swift */; };
+		E31E514E1F332DA700AC44A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E514D1F332DA700AC44A3 /* ViewController.swift */; };
+		E31E51511F332DA700AC44A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E514F1F332DA700AC44A3 /* Main.storyboard */; };
+		E31E51531F332DA700AC44A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E51521F332DA700AC44A3 /* Assets.xcassets */; };
+		E31E51561F332DA700AC44A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E51541F332DA700AC44A3 /* LaunchScreen.storyboard */; };
+		E31E51611F332DA700AC44A3 /* FIRDBCrudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E51601F332DA700AC44A3 /* FIRDBCrudTests.swift */; };
+		E31E516C1F332DA700AC44A3 /* FIRDBCrudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E516B1F332DA700AC44A3 /* FIRDBCrudUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31E515D1F332DA700AC44A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31E51401F332DA700AC44A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31E51471F332DA700AC44A3;
+			remoteInfo = FIRDBCrud;
+		};
+		E31E51681F332DA700AC44A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31E51401F332DA700AC44A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31E51471F332DA700AC44A3;
+			remoteInfo = FIRDBCrud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31E51481F332DA700AC44A3 /* FIRDBCrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIRDBCrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31E514B1F332DA700AC44A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E31E514D1F332DA700AC44A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E31E51501F332DA700AC44A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E31E51521F332DA700AC44A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31E51551F332DA700AC44A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E31E51571F332DA700AC44A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31E515C1F332DA700AC44A3 /* FIRDBCrudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIRDBCrudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31E51601F332DA700AC44A3 /* FIRDBCrudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDBCrudTests.swift; sourceTree = "<group>"; };
+		E31E51621F332DA700AC44A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31E51671F332DA700AC44A3 /* FIRDBCrudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIRDBCrudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31E516B1F332DA700AC44A3 /* FIRDBCrudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDBCrudUITests.swift; sourceTree = "<group>"; };
+		E31E516D1F332DA700AC44A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31E51451F332DA700AC44A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31E51591F332DA700AC44A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31E51641F332DA700AC44A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31E513F1F332DA700AC44A3 = {
+			isa = PBXGroup;
+			children = (
+				E31E514A1F332DA700AC44A3 /* FIRDBCrud */,
+				E31E515F1F332DA700AC44A3 /* FIRDBCrudTests */,
+				E31E516A1F332DA700AC44A3 /* FIRDBCrudUITests */,
+				E31E51491F332DA700AC44A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31E51491F332DA700AC44A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31E51481F332DA700AC44A3 /* FIRDBCrud.app */,
+				E31E515C1F332DA700AC44A3 /* FIRDBCrudTests.xctest */,
+				E31E51671F332DA700AC44A3 /* FIRDBCrudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31E514A1F332DA700AC44A3 /* FIRDBCrud */ = {
+			isa = PBXGroup;
+			children = (
+				E31E514B1F332DA700AC44A3 /* AppDelegate.swift */,
+				E31E514D1F332DA700AC44A3 /* ViewController.swift */,
+				E31E514F1F332DA700AC44A3 /* Main.storyboard */,
+				E31E51521F332DA700AC44A3 /* Assets.xcassets */,
+				E31E51541F332DA700AC44A3 /* LaunchScreen.storyboard */,
+				E31E51571F332DA700AC44A3 /* Info.plist */,
+			);
+			path = FIRDBCrud;
+			sourceTree = "<group>";
+		};
+		E31E515F1F332DA700AC44A3 /* FIRDBCrudTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31E51601F332DA700AC44A3 /* FIRDBCrudTests.swift */,
+				E31E51621F332DA700AC44A3 /* Info.plist */,
+			);
+			path = FIRDBCrudTests;
+			sourceTree = "<group>";
+		};
+		E31E516A1F332DA700AC44A3 /* FIRDBCrudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31E516B1F332DA700AC44A3 /* FIRDBCrudUITests.swift */,
+				E31E516D1F332DA700AC44A3 /* Info.plist */,
+			);
+			path = FIRDBCrudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31E51471F332DA700AC44A3 /* FIRDBCrud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31E51701F332DA700AC44A3 /* Build configuration list for PBXNativeTarget "FIRDBCrud" */;
+			buildPhases = (
+				E31E51441F332DA700AC44A3 /* Sources */,
+				E31E51451F332DA700AC44A3 /* Frameworks */,
+				E31E51461F332DA700AC44A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIRDBCrud;
+			productName = FIRDBCrud;
+			productReference = E31E51481F332DA700AC44A3 /* FIRDBCrud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31E515B1F332DA700AC44A3 /* FIRDBCrudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31E51731F332DA700AC44A3 /* Build configuration list for PBXNativeTarget "FIRDBCrudTests" */;
+			buildPhases = (
+				E31E51581F332DA700AC44A3 /* Sources */,
+				E31E51591F332DA700AC44A3 /* Frameworks */,
+				E31E515A1F332DA700AC44A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31E515E1F332DA700AC44A3 /* PBXTargetDependency */,
+			);
+			name = FIRDBCrudTests;
+			productName = FIRDBCrudTests;
+			productReference = E31E515C1F332DA700AC44A3 /* FIRDBCrudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31E51661F332DA700AC44A3 /* FIRDBCrudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31E51761F332DA700AC44A3 /* Build configuration list for PBXNativeTarget "FIRDBCrudUITests" */;
+			buildPhases = (
+				E31E51631F332DA700AC44A3 /* Sources */,
+				E31E51641F332DA700AC44A3 /* Frameworks */,
+				E31E51651F332DA700AC44A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31E51691F332DA700AC44A3 /* PBXTargetDependency */,
+			);
+			name = FIRDBCrudUITests;
+			productName = FIRDBCrudUITests;
+			productReference = E31E51671F332DA700AC44A3 /* FIRDBCrudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31E51401F332DA700AC44A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Headerdevs;
+				TargetAttributes = {
+					E31E51471F332DA700AC44A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HWPP5F66EL;
+						ProvisioningStyle = Automatic;
+					};
+					E31E515B1F332DA700AC44A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HWPP5F66EL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31E51471F332DA700AC44A3;
+					};
+					E31E51661F332DA700AC44A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HWPP5F66EL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31E51471F332DA700AC44A3;
+					};
+				};
+			};
+			buildConfigurationList = E31E51431F332DA700AC44A3 /* Build configuration list for PBXProject "FIRDBCrud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31E513F1F332DA700AC44A3;
+			productRefGroup = E31E51491F332DA700AC44A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31E51471F332DA700AC44A3 /* FIRDBCrud */,
+				E31E515B1F332DA700AC44A3 /* FIRDBCrudTests */,
+				E31E51661F332DA700AC44A3 /* FIRDBCrudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31E51461F332DA700AC44A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31E51561F332DA700AC44A3 /* LaunchScreen.storyboard in Resources */,
+				E31E51531F332DA700AC44A3 /* Assets.xcassets in Resources */,
+				E31E51511F332DA700AC44A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31E515A1F332DA700AC44A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31E51651F332DA700AC44A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31E51441F332DA700AC44A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31E514E1F332DA700AC44A3 /* ViewController.swift in Sources */,
+				E31E514C1F332DA700AC44A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31E51581F332DA700AC44A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31E51611F332DA700AC44A3 /* FIRDBCrudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31E51631F332DA700AC44A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31E516C1F332DA700AC44A3 /* FIRDBCrudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31E515E1F332DA700AC44A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31E51471F332DA700AC44A3 /* FIRDBCrud */;
+			targetProxy = E31E515D1F332DA700AC44A3 /* PBXContainerItemProxy */;
+		};
+		E31E51691F332DA700AC44A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31E51471F332DA700AC44A3 /* FIRDBCrud */;
+			targetProxy = E31E51681F332DA700AC44A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31E514F1F332DA700AC44A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31E51501F332DA700AC44A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E31E51541F332DA700AC44A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31E51551F332DA700AC44A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31E516E1F332DA700AC44A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E31E516F1F332DA700AC44A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E31E51711F332DA700AC44A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWPP5F66EL;
+				INFOPLIST_FILE = FIRDBCrud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerdevs.FIRDBCrud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E31E51721F332DA700AC44A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWPP5F66EL;
+				INFOPLIST_FILE = FIRDBCrud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerdevs.FIRDBCrud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E31E51741F332DA700AC44A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HWPP5F66EL;
+				INFOPLIST_FILE = FIRDBCrudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerdevs.FIRDBCrudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIRDBCrud.app/FIRDBCrud";
+			};
+			name = Debug;
+		};
+		E31E51751F332DA700AC44A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HWPP5F66EL;
+				INFOPLIST_FILE = FIRDBCrudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerdevs.FIRDBCrudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIRDBCrud.app/FIRDBCrud";
+			};
+			name = Release;
+		};
+		E31E51771F332DA700AC44A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HWPP5F66EL;
+				INFOPLIST_FILE = FIRDBCrudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerdevs.FIRDBCrudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FIRDBCrud;
+			};
+			name = Debug;
+		};
+		E31E51781F332DA700AC44A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HWPP5F66EL;
+				INFOPLIST_FILE = FIRDBCrudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerdevs.FIRDBCrudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FIRDBCrud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31E51431F332DA700AC44A3 /* Build configuration list for PBXProject "FIRDBCrud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31E516E1F332DA700AC44A3 /* Debug */,
+				E31E516F1F332DA700AC44A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31E51701F332DA700AC44A3 /* Build configuration list for PBXNativeTarget "FIRDBCrud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31E51711F332DA700AC44A3 /* Debug */,
+				E31E51721F332DA700AC44A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E31E51731F332DA700AC44A3 /* Build configuration list for PBXNativeTarget "FIRDBCrudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31E51741F332DA700AC44A3 /* Debug */,
+				E31E51751F332DA700AC44A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E31E51761F332DA700AC44A3 /* Build configuration list for PBXNativeTarget "FIRDBCrudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31E51771F332DA700AC44A3 /* Debug */,
+				E31E51781F332DA700AC44A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31E51401F332DA700AC44A3 /* Project object */;
+}
